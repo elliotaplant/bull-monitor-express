@@ -11,8 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@bull-monitor/express": "^5.4.0",
+    "bull": "^4.11.4",
+    "bullmq": "^4.13.1",
     "express": "^4.17.1",
-    "express-basic-auth": "^1.2.0"
+    "express-basic-auth": "^1.2.0",
+    "ioredis": "^5.3.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.11",
